@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BE99326A2DEC7A8C0032112E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE9932532DEC7A8B0032112E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE99325A2DEC7A8B0032112E;
+			remoteInfo = Mete;
+		};
+		BE9932742DEC7A8C0032112E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE9932532DEC7A8B0032112E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE99325A2DEC7A8B0032112E;
+			remoteInfo = Mete;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE99325B2DEC7A8B0032112E /* Mete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9932692DEC7A8C0032112E /* MeteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9932732DEC7A8C0032112E /* MeteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BE99325D2DEC7A8B0032112E /* Mete */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Mete;
+			sourceTree = "<group>";
+		};
+		BE99326C2DEC7A8C0032112E /* MeteTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MeteTests;
+			sourceTree = "<group>";
+		};
+		BE9932762DEC7A8C0032112E /* MeteUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MeteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE9932582DEC7A8B0032112E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9932662DEC7A8C0032112E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9932702DEC7A8C0032112E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE9932522DEC7A8B0032112E = {
+			isa = PBXGroup;
+			children = (
+				BE99325D2DEC7A8B0032112E /* Mete */,
+				BE99326C2DEC7A8C0032112E /* MeteTests */,
+				BE9932762DEC7A8C0032112E /* MeteUITests */,
+				BE99325C2DEC7A8B0032112E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE99325C2DEC7A8B0032112E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE99325B2DEC7A8B0032112E /* Mete.app */,
+				BE9932692DEC7A8C0032112E /* MeteTests.xctest */,
+				BE9932732DEC7A8C0032112E /* MeteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE99325A2DEC7A8B0032112E /* Mete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE99327D2DEC7A8C0032112E /* Build configuration list for PBXNativeTarget "Mete" */;
+			buildPhases = (
+				BE9932572DEC7A8B0032112E /* Sources */,
+				BE9932582DEC7A8B0032112E /* Frameworks */,
+				BE9932592DEC7A8B0032112E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BE99325D2DEC7A8B0032112E /* Mete */,
+			);
+			name = Mete;
+			packageProductDependencies = (
+			);
+			productName = Mete;
+			productReference = BE99325B2DEC7A8B0032112E /* Mete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE9932682DEC7A8C0032112E /* MeteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9932802DEC7A8C0032112E /* Build configuration list for PBXNativeTarget "MeteTests" */;
+			buildPhases = (
+				BE9932652DEC7A8C0032112E /* Sources */,
+				BE9932662DEC7A8C0032112E /* Frameworks */,
+				BE9932672DEC7A8C0032112E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE99326B2DEC7A8C0032112E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BE99326C2DEC7A8C0032112E /* MeteTests */,
+			);
+			name = MeteTests;
+			packageProductDependencies = (
+			);
+			productName = MeteTests;
+			productReference = BE9932692DEC7A8C0032112E /* MeteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE9932722DEC7A8C0032112E /* MeteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9932832DEC7A8C0032112E /* Build configuration list for PBXNativeTarget "MeteUITests" */;
+			buildPhases = (
+				BE99326F2DEC7A8C0032112E /* Sources */,
+				BE9932702DEC7A8C0032112E /* Frameworks */,
+				BE9932712DEC7A8C0032112E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE9932752DEC7A8C0032112E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BE9932762DEC7A8C0032112E /* MeteUITests */,
+			);
+			name = MeteUITests;
+			packageProductDependencies = (
+			);
+			productName = MeteUITests;
+			productReference = BE9932732DEC7A8C0032112E /* MeteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE9932532DEC7A8B0032112E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					BE99325A2DEC7A8B0032112E = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					BE9932682DEC7A8C0032112E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = BE99325A2DEC7A8B0032112E;
+					};
+					BE9932722DEC7A8C0032112E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = BE99325A2DEC7A8B0032112E;
+					};
+				};
+			};
+			buildConfigurationList = BE9932562DEC7A8B0032112E /* Build configuration list for PBXProject "Mete" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE9932522DEC7A8B0032112E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BE99325C2DEC7A8B0032112E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE99325A2DEC7A8B0032112E /* Mete */,
+				BE9932682DEC7A8C0032112E /* MeteTests */,
+				BE9932722DEC7A8C0032112E /* MeteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE9932592DEC7A8B0032112E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9932672DEC7A8C0032112E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9932712DEC7A8C0032112E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE9932572DEC7A8B0032112E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9932652DEC7A8C0032112E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE99326F2DEC7A8C0032112E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE99326B2DEC7A8C0032112E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE99325A2DEC7A8B0032112E /* Mete */;
+			targetProxy = BE99326A2DEC7A8C0032112E /* PBXContainerItemProxy */;
+		};
+		BE9932752DEC7A8C0032112E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE99325A2DEC7A8B0032112E /* Mete */;
+			targetProxy = BE9932742DEC7A8C0032112E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE99327B2DEC7A8C0032112E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE99327C2DEC7A8C0032112E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BE99327E2DEC7A8C0032112E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mete/Mete.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hwan.Mete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BE99327F2DEC7A8C0032112E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mete/Mete.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hwan.Mete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BE9932812DEC7A8C0032112E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hwan.MeteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mete.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mete";
+			};
+			name = Debug;
+		};
+		BE9932822DEC7A8C0032112E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hwan.MeteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mete.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mete";
+			};
+			name = Release;
+		};
+		BE9932842DEC7A8C0032112E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hwan.MeteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Mete;
+			};
+			name = Debug;
+		};
+		BE9932852DEC7A8C0032112E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hwan.MeteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Mete;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE9932562DEC7A8B0032112E /* Build configuration list for PBXProject "Mete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE99327B2DEC7A8C0032112E /* Debug */,
+				BE99327C2DEC7A8C0032112E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE99327D2DEC7A8C0032112E /* Build configuration list for PBXNativeTarget "Mete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE99327E2DEC7A8C0032112E /* Debug */,
+				BE99327F2DEC7A8C0032112E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9932802DEC7A8C0032112E /* Build configuration list for PBXNativeTarget "MeteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9932812DEC7A8C0032112E /* Debug */,
+				BE9932822DEC7A8C0032112E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9932832DEC7A8C0032112E /* Build configuration list for PBXNativeTarget "MeteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9932842DEC7A8C0032112E /* Debug */,
+				BE9932852DEC7A8C0032112E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE9932532DEC7A8B0032112E /* Project object */;
+}
